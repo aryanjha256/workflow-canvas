@@ -1,0 +1,52 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.login-header h2 {
+  margin-bottom: 4px;
+}
+
+.role-selection {
+  margin: 16px 0;
+}
+
+.sso-buttons {
+  margin-top: 24px;
+}
+
+.google-button {
+  background-color: #4285f4 !important;
+  border-color: #4285f4 !important;
+}
+
+.google-button:hover {
+  background-color: #357ae8 !important;
+  border-color: #357ae8 !important;
+}
+
+.microsoft-button {
+  border-color: #00a4ef !important;
+  color: #00a4ef !important;
+}
+
+.microsoft-button:hover {
+  border-color: #0078d4 !important;
+  color: #0078d4 !important;
+}

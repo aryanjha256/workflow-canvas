@@ -1,0 +1,27 @@
+.sidebar {
+  height: 100%;
+  background-color: transparent;
+  overflow-y: auto;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.node-type-card {
+  transition: all 0.3s ease;
+}
+
+.node-type-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.node-type-card:active {
+  cursor: grabbing;
+  opacity: 0.6;
+}
+
+.sidebar-info {
+  border-left: 3px solid #1890ff;
+}

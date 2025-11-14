@@ -1,0 +1,67 @@
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  background-color: #fff;
+}
+
+.canvas-toolbar {
+  padding: 16px 24px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.canvas-content {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+    linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: -1px -1px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.connections-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.canvas-empty-state {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.empty-content {
+  text-align: center;
+  color: #8c8c8c;
+  padding: 40px;
+  pointer-events: none;
+}
+
+.empty-content h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #595959;
+}
+
+.empty-content p {
+  font-size: 14px;
+  margin: 0;
+}
